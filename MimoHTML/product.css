@@ -1,6 +1,8 @@
 
 h1, h2, p {
+
   font-family: 'Gentium Book Basic', serif;
+
 }
 
 
@@ -8,24 +10,75 @@ h1 {
 
   text-align: center;
   font-weight: bold;
-  font-size: 70pt;
-  letter-spacing: -5px;
+  font-size: 64px;
+  letter-spacing: -4px;
   margin-bottom: 0px;
 
+}
+
+.winnerIMG {
+  
+  animation: createBox 3s;
+
+}
+
+@keyframes createBox {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.galleryALL {
+
+  margin: 0 auto;
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 h2 {
 
   font-weight: bold;
-  font-size: 40pt;
+  font-size: 48px;
   letter-spacing: -3px;
   margin-bottom: 0px;
 
 }
 
+#half-highlight {
+
+  background-image: linear-gradient(to right, transparent 50%, #FBD834 50%);
+  background-origin: 0;
+  background-size: 200% 45%;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-position: -100% 100%;
+
+}
+
 p {
 
-  font-size: 22pt;
+  font-size: 28px;
   font-weight: regular;
   margin-top: 0px;
   letter-spacing: -1px;
@@ -35,7 +88,7 @@ p {
 /* footer {
 
   background-image: url("footer.png");
-
+m
 } */
 
 .container {
